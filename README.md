@@ -1,9 +1,11 @@
-# project3
+# Project3
 
-## Setup
+A simple port of Pahimar's Equivalent Exchange 3 to the best of my efforts.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+I claim no credit if not for the job of writing the code, remaking some models for MC's new
+3D model format and little more. Everything else from the mod idea, original 3d assets inspiration,
+2D Asset library and everything else is Pahimar's.
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+The mod is currently in heavy indev, it has very little playability and
+even less stability, with also having plans to port it to newer Fabric versions upon
+reaching a "Release" state.
