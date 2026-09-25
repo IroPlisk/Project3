@@ -1,0 +1,7 @@
+{
+  "type": "project3:aludel",
+  "top_input": { "item": "minecraft:bundle", "count": 1 },
+  "bottom_input": { "item": "project3:dust_verdant", "count": 8 },
+  "result": { "item": "project3:alchemical_bag_small", "count": 1 },
+  "cook_time": 600
+}

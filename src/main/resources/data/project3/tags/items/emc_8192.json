@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "project3:minium_shard",
+    "project3:dust_minium",
+    "minecraft:diamond",
+    "minecraft:diamond_ore",
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:emerald",
+    "minecraft:emerald_ore",
+    "minecraft:deepslate_emerald_ore"
+  ]
+}

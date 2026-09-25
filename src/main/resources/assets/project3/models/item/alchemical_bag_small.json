@@ -1,0 +1,12 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "project3:item/alchemical_bag"
+  },
+  "overrides": [
+    {
+      "predicate": { "open": 1 },
+      "model": "project3:item/alchemical_bag_small_open"
+    }
+  ]
+}

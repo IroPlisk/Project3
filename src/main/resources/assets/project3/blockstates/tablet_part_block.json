@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "part=n": { "model": "project3:block/tablet_part_n" },
+    "part=s": { "model": "project3:block/tablet_part_s" },
+    "part=e": { "model": "project3:block/tablet_part_e" },
+    "part=w": { "model": "project3:block/tablet_part_w" },
+    "part=ne": { "model": "project3:block/tablet_part_ne" },
+    "part=nw": { "model": "project3:block/tablet_part_nw" },
+    "part=se": { "model": "project3:block/tablet_part_se" },
+    "part=sw": { "model": "project3:block/tablet_part_sw" }
+  }
+}

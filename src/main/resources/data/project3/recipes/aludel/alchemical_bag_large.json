@@ -1,0 +1,7 @@
+{
+  "type": "project3:aludel",
+  "top_input": { "item": "project3:alchemical_bag_medium", "count": 1 },
+  "bottom_input": { "item": "project3:dust_amaranthine", "count": 8 },
+  "result": { "item": "project3:alchemical_bag_large", "count": 1 },
+  "cook_time": 1350
+}

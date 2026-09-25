@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "project3:dust_verdant",
+    "minecraft:obsidian",
+    "minecraft:leather",
+    "minecraft:brick",
+    "minecraft:clay_ball"
+  ]
+}

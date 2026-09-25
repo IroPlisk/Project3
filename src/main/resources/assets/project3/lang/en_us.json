@@ -1,0 +1,27 @@
+{
+  "item.project3.inert_stone": "Inert Stone",
+  "item.project3.minium_shard": "Minium Shard",
+
+  "item.project3.minium_stone": "Minium Stone",
+  "item.project3.philosophers_stone": "Philosophers Stone",
+  "item.project3.alchemical_bag_small": "Alchemical Bag (Verdant)",
+  "item.project3.alchemical_bag_medium": "Alchemical Bag (Azure)",
+  "item.project3.alchemical_bag_large": "Alchemical Bag (Amaranthine)",
+  "item.project3.knowledge_tome": "Tome of Knowledge",
+  "item.project3.chalk": "Chalk",
+  "item.project3.crystal_ball": "Crystal ball",
+
+  "item.project3.dust_ash": "Ash",
+  "item.project3.dust_verdant": "Verdant Dust",
+  "item.project3.dust_azure": "Azure Dust",
+  "item.project3.dust_minium": "Minium Dust",
+  "item.project3.dust_amaranthine": "Amaranthine Dust",
+  "item.project3.dust_iridescent": "Iridescent Dust",
+
+  "block.project3.ash_stone": "Ash Infused Stone",
+
+  "block.project3.calcinator": "Calcinator",
+  "block.project3.glass_bell": "Glass Bell",
+  "block.project3.aludel_base": "Aludel Base",
+  "block.project3.research_station": "Research Station"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "project3:aludel",
+  "top_input": { "item": "project3:minium_stone", "count": 1},
+  "bottom_input": { "item": "project3:dust_iridescent", "count": 4},
+  "result": { "item": "project3:philosophers_stone", "count": 1 },
+  "cook_time": 1200
+}
