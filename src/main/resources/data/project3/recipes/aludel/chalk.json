@@ -1,0 +1,7 @@
+{
+  "type": "project3:aludel",
+  "top_input": { "item": "minecraft:calcite", "count": 1},
+  "bottom_input": { "item": "project3:dust_ash", "count": 3},
+  "result": { "item": "project3:chalk", "count": 1 },
+  "cook_time": 850
+}

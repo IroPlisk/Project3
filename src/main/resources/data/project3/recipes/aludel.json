@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "SIS",
+    "III"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot"},
+    "S": { "item": "minecraft:stone"}
+  },
+  "result": {
+    "item": "project3:aludel_base",
+    "count": 1
+  }
+}

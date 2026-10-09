@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SGS",
+    "GDG",
+    "SGS"
+  ],
+  "key": {
+    "G": { "item": "minecraft:gold_ingot"},
+    "S": { "item": "minecraft:stone"},
+    "D": { "item": "minecraft:diamond"}
+  },
+  "result": {
+    "item": "project3:inert_stone",
+    "count": 1
+  }
+}

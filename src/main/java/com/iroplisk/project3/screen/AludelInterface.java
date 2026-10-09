@@ -23,6 +23,7 @@ public class AludelInterface extends HandledScreen<AludelInterfaceHandler> {
     @Override
     protected void init() {
         super.init();
+        playerInventoryTitleY = 95;
     }
 
     @Override
@@ -38,6 +39,7 @@ public class AludelInterface extends HandledScreen<AludelInterfaceHandler> {
         renderProgressArrow(context, x, y);
         renderFuelGauge(context, x, y);
     }
+
     private void renderProgressArrow(DrawContext context, int x, int y) {
         if(handler.isCrafting()){
             int correctV = 23;

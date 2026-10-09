@@ -185,9 +185,17 @@ public class CalcinatorBlockEntity extends BlockEntity implements ExtendedScreen
         if (emc <= 2047) {
             return new ItemStack(Items.DUST_VERDANT, 1);
         }
-
-        if (emc >= 8192) {
+        if (emc <= 8191) {
+            return new ItemStack(Items.DUST_AZURE, 1);
+        }
+        if (emc <= 16383) {
             return new ItemStack(Items.DUST_MINIUM, 1);
+        }
+        if (emc <= 32767) {
+            return new ItemStack(Items.DUST_AMARANTHINE, 1);
+        }
+        if (emc >= 32768) {
+            return new ItemStack(Items.DUST_IRIDESCENT, 1);
         }
 
         return ItemStack.EMPTY;
@@ -195,13 +203,7 @@ public class CalcinatorBlockEntity extends BlockEntity implements ExtendedScreen
 
     private int getEmcFromTags(ItemStack stack) {
         if (stack.isEmpty()) return 0;
-        if (stack.isIn(VanillaModifiers.EMC_ONE_TAG)) return 1;
-        if (stack.isIn(VanillaModifiers.EMC_32_TAG)) return 32;
-        if (stack.isIn(VanillaModifiers.EMC_64_TAG)) return 64;
-        if (stack.isIn(VanillaModifiers.EMC_128_TAG)) return 128;
-        if (stack.isIn(VanillaModifiers.EMC_8192_TAG)) return 8192;
-
-        return 0;
+        return (int) VanillaModifiers.getEmc(stack);
     }
 
     private void craftItem() {

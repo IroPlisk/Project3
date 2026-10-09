@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IWI",
+    " S ",
+    "SSS"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot"},
+    "S": { "item": "minecraft:stone"},
+    "W": { "tag": "minecraft:wooden_slabs" }
+  },
+  "result": {
+    "item": "project3:research_station",
+    "count": 1
+  }
+}

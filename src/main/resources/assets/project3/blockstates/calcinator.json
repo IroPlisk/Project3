@@ -1,8 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "project3:block/calcinator",
-      "x": 90
+      "model": "project3:block/calcinator"
     }
   }
 }

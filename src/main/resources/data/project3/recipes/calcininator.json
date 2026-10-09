@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I I",
+    "SIS",
+    "S S"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot"},
+    "S": { "item": "minecraft:stone"}
+  },
+  "result": {
+    "item": "project3:calcinator",
+    "count": 1
+  }
+}

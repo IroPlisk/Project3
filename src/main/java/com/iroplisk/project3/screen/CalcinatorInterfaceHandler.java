@@ -97,9 +97,11 @@ public class CalcinatorInterfaceHandler extends ScreenHandler {
     public int getScaledBurnTIme(){
         int burnTime = this.propertyDelegate.get(2);
         int maxBurnTime = this.propertyDelegate.get(3);
-        int burnFlameSize = 13;
+        int burnFlameSize = 14;
 
-        return maxBurnTime != 0 && burnTime != 0 ? burnTime * burnFlameSize / maxBurnTime : 0;
+        return maxBurnTime != 0 && burnTime != 0
+                ? (burnTime * burnFlameSize + maxBurnTime - 1) / maxBurnTime
+                : 0;
     }
 
     private void addPlayerInventory(PlayerInventory playerInventory) {

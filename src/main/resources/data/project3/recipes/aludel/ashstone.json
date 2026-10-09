@@ -1,0 +1,7 @@
+{
+  "type": "project3:aludel",
+  "top_input": { "item": "minecraft:stone", "count": 1},
+  "bottom_input": { "item": "project3:dust_ash", "count": 1},
+  "result": { "item": "project3:ash_stone", "count": 1 },
+  "cook_time": 900
+}

@@ -22,6 +22,7 @@ public class Project3 implements ModInitializer {
 		Items.itemReg();
 		CustomLootTables.CustomLootProject3();
 		CreativeTabProject3.CreativeTabReg();
+		VanillaModifiers.register();
 		VanillaModifiers.AddTooltips();
 		com.example.project3.block.Blocks.registerModBlocks();
 		BlockEntities.registerBlockEntities();
