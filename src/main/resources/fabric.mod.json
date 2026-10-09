@@ -2,16 +2,17 @@
 	"schemaVersion": 1,
 	"id": "project3",
 	"version": "${version}",
-	"name": "project3",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Project3",
+	"description": "A modern port of Pahimar's Equivalent Exchange 3 for Minecraft 1.20.1. Ideas and original assets belong to Pahimar; the code is rewritten from the ground up and the models are remade for the modern JSON format.",
 	"authors": [
-		"Me!"
+		"IroPlisk"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/IroPlisk/Project3",
+		"issues": "https://github.com/IroPlisk/Project3/issues",
+		"personal": "http://www.blackmesawest.it/"
 	},
-	"license": "CC0-1.0",
+	"license": "LGPL-3.0-only",
 	"icon": "assets/project3/icon.png",
 	"environment": "*",
 	"entrypoints": {
