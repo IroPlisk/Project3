@@ -1,0 +1,30 @@
+{
+  "item.project3.inert_stone": "Pietra Inerte",
+  "item.project3.minium_shard": "Frammento Minium",
+
+  "item.project3.minium_stone": "Pietra Minium",
+  "item.project3.philosophers_stone": "Pietra Filosofale",
+  "item.project3.alchemical_bag_small": "Sacco Alchemico (Verdeggiante)",
+  "item.project3.alchemical_bag_medium": "Sacco Alchemico (Azzurra)",
+  "item.project3.alchemical_bag_large": "Sacco Alchemico (Amarantina)",
+  "item.project3.knowledge_tome": "Tomo della Conoscenza",
+  "item.project3.chalk": "Gesso",
+  "item.project3.crystal_ball": "Sfera di Cristallo",
+
+  "item.project3.dust_ash": "Cenere",
+  "item.project3.dust_verdant": "Cenere Verdeggiante",
+  "item.project3.dust_azure": "Cenere Azzurra",
+  "item.project3.dust_minium": "Cenere Minium",
+  "item.project3.dust_amaranthine": "Cenere Amarantina",
+  "item.project3.dust_iridescent": "Cenere Iridescente",
+
+  "block.project3.ash_stone": "Pietra infusa",
+
+  "block.project3.calcinator": "Calcinator",
+  "block.project3.glass_bell": "Campana di vetro",
+  "block.project3.aludel_base": "Aludèlla",
+  "block.project3.research_station": "Tavolo della Ricerca",
+  "block.project3.alchemical_chest_verdant": "Baule Alchemico (Verdant)",
+  "block.project3.alchemical_chest_azure": "Baule Alchemico (Azure)",
+  "block.project3.alchemical_chest_minium": "Baule Alchemico (Minium)"
+  }

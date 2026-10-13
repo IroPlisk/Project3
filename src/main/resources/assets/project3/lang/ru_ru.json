@@ -1,0 +1,30 @@
+{
+  "item.project3.inert_stone": "Инертный камень",
+  "item.project3.minium_shard": "Миньюм осколок",
+
+  "item.project3.minium_stone": "Миньюм камень",
+  "item.project3.philosophers_stone": "Философский камень",
+  "item.project3.alchemical_bag_small": "Alchemical Bag (Verdant)",
+  "item.project3.alchemical_bag_medium": "Alchemical Bag (Azure)",
+  "item.project3.alchemical_bag_large": "Alchemical Bag (Amaranthine)",
+  "item.project3.knowledge_tome": "Tome of Knowledge",
+  "item.project3.chalk": "Chalk",
+  "item.project3.crystal_ball": "Crystal ball",
+
+  "item.project3.dust_ash": "Пепел",
+  "item.project3.dust_verdant": "Зеленеющий ясень",
+  "item.project3.dust_azure": "Azure Dust",
+  "item.project3.dust_minium": "Minium Dust",
+  "item.project3.dust_amaranthine": "Amaranthine Dust",
+  "item.project3.dust_iridescent": "Iridescent Dust",
+
+  "block.project3.ash_stone": "Камень пропитанный пеплом",
+
+  "block.project3.calcinator": "Calcinator",
+  "block.project3.glass_bell": "Glass Bell",
+  "block.project3.aludel_base": "Aludel Base",
+  "block.project3.research_station": "Research Station",
+  "block.project3.alchemical_chest_verdant": "Alchemical Chest (Verdant)",
+  "block.project3.alchemical_chest_azure": "Alchemical Chest (Azure)",
+  "block.project3.alchemical_chest_minium": "Alchemical Chest (Minium)"
+  }

@@ -23,5 +23,8 @@
   "block.project3.calcinator": "Calcinator",
   "block.project3.glass_bell": "Glass Bell",
   "block.project3.aludel_base": "Aludel Base",
-  "block.project3.research_station": "Research Station"
-}
+  "block.project3.research_station": "Research Station",
+  "block.project3.alchemical_chest_verdant": "Alchemical Chest (Verdant)",
+  "block.project3.alchemical_chest_azure": "Alchemical Chest (Azure)",
+  "block.project3.alchemical_chest_minium": "Alchemical Chest (Minium)"
+  }

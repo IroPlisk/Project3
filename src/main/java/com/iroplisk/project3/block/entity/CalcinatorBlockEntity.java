@@ -178,7 +178,6 @@ public class CalcinatorBlockEntity extends BlockEntity implements ExtendedScreen
     private ItemStack getDustOutputForInput(ItemStack inputStack) {
         if (inputStack.isEmpty()) return ItemStack.EMPTY;
         int emc = getEmcFromTags(inputStack);
-
         if (emc < 64) {
             return new ItemStack(Items.DUST_ASH, 1);
         }

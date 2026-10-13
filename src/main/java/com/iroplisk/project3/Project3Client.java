@@ -28,6 +28,9 @@ public class Project3Client implements ClientModInitializer {
         HandledScreens.register(Project3ScreenHandlers.ALCHEMICAL_BAG_LARGE_SCREEN_HANDLER, AlchemicalBagInterface::new);
         HandledScreens.register(Project3ScreenHandlers.RESEARCH_STATION_SCREEN_HANDLER, ResearchStationInterface::new);
         HandledScreens.register(Project3ScreenHandlers.TABLET_INTERFACE_SCREEN_HANDLER, TabletInterface::new);
+        HandledScreens.register(Project3ScreenHandlers.ALCHEMICAL_CHEST_VERDANT_SCREEN_HANDLER, AlchemicalBagInterface::new);
+        HandledScreens.register(Project3ScreenHandlers.ALCHEMICAL_CHEST_AZURE_SCREEN_HANDLER, AlchemicalBagInterface::new);
+        HandledScreens.register(Project3ScreenHandlers.ALCHEMICAL_CHEST_MINIUM_SCREEN_HANDLER, AlchemicalBagInterface::new);
 
         BlockRenderLayerMap.INSTANCE.putBlock(com.example.project3.block.Blocks.GLASS_BELL, RenderLayer.getTranslucent());
         BlockEntityRendererFactories.register(BlockEntities.GLASS_BELL_BLOCK_ENTITY, GlassBellEntityRenderer::new);

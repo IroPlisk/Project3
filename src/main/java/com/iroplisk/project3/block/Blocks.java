@@ -26,6 +26,13 @@ public class Blocks {
     public static final Block TABLET_PART_BLOCK = registerBlock("tablet_part_block",
             new TabletPartBlock(FabricBlockSettings.copyOf(net.minecraft.block.Blocks.OBSIDIAN)));
 
+    public static final Block ALCHEMICAL_CHEST_VERDANT = registerBlock("alchemical_chest_verdant",
+            new AlchemicalChestBlock(FabricBlockSettings.copyOf(net.minecraft.block.Blocks.CHEST), 1));
+    public static final Block ALCHEMICAL_CHEST_AZURE = registerBlock("alchemical_chest_azure",
+            new AlchemicalChestBlock(FabricBlockSettings.copyOf(net.minecraft.block.Blocks.CHEST), 2));
+    public static final Block ALCHEMICAL_CHEST_MINIUM = registerBlock("alchemical_chest_minium",
+            new AlchemicalChestBlock(FabricBlockSettings.copyOf(net.minecraft.block.Blocks.CHEST), 3));
+
     public static final Block ASH_STONE = registerBlock("ash_stone",
             new Block(FabricBlockSettings.copyOf(net.minecraft.block.Blocks.POLISHED_ANDESITE)));
 

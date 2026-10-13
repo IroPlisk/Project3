@@ -33,6 +33,16 @@ public class Project3ScreenHandlers {
             Registry.register(Registries.SCREEN_HANDLER, new Identifier(Project3.MOD_ID, "transmutation_tablet"),
                     new ExtendedScreenHandlerType<>(TabletInterfaceHandler::new));
 
+    public static final ScreenHandlerType<AlchemicalChestHandler> ALCHEMICAL_CHEST_VERDANT_SCREEN_HANDLER =
+            Registry.register(Registries.SCREEN_HANDLER, new Identifier(Project3.MOD_ID, "alchemical_chest_verdant"),
+                    new ExtendedScreenHandlerType<>(AlchemicalChestHandler::new));
+    public static final ScreenHandlerType<AlchemicalChestHandler> ALCHEMICAL_CHEST_AZURE_SCREEN_HANDLER =
+            Registry.register(Registries.SCREEN_HANDLER, new Identifier(Project3.MOD_ID, "alchemical_chest_azure"),
+                    new ExtendedScreenHandlerType<>(AlchemicalChestHandler::new));
+    public static final ScreenHandlerType<AlchemicalChestHandler> ALCHEMICAL_CHEST_MINIUM_SCREEN_HANDLER =
+            Registry.register(Registries.SCREEN_HANDLER, new Identifier(Project3.MOD_ID, "alchemical_chest_minium"),
+                    new ExtendedScreenHandlerType<>(AlchemicalChestHandler::new));
+
     public static void registerScreenHandlers() {
         Project3.LOGGER.info("Registering Screen Handlers for " + Project3.MOD_ID);
     }

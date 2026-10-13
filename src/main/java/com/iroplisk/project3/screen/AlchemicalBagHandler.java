@@ -15,7 +15,11 @@ public class AlchemicalBagHandler extends ScreenHandler {
     private final int tier;
 
     public AlchemicalBagHandler(int syncId, PlayerInventory playerInventory, Inventory bagInventory, int tier) {
-        super(getHandlerTypeForTier(tier), syncId);
+        this(syncId, playerInventory, bagInventory, tier, getHandlerTypeForTier(tier));
+    }
+
+    protected AlchemicalBagHandler(int syncId, PlayerInventory playerInventory, Inventory bagInventory, int tier, ScreenHandlerType<?> type) {
+        super(type, syncId);
         this.bagInventory = bagInventory;
         this.tier = tier;
         bagInventory.onOpen(playerInventory.player);

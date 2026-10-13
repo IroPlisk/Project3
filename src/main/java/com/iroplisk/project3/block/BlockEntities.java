@@ -31,6 +31,21 @@ public class BlockEntities {
                     FabricBlockEntityTypeBuilder.create(TabletBlockEntity::new,
                             Blocks.TABLET_BLOCK).build());
 
+    public static final BlockEntityType<AlchemicalChestBlockEntity> ALCHEMICAL_CHEST_VERDANT_BLOCK_ENTITY =
+            Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(Project3.MOD_ID, "alchemical_chest_verdant"),
+                    FabricBlockEntityTypeBuilder.create((pos, state) -> new AlchemicalChestBlockEntity(pos, state, 1),
+                            Blocks.ALCHEMICAL_CHEST_VERDANT).build());
+
+    public static final BlockEntityType<AlchemicalChestBlockEntity> ALCHEMICAL_CHEST_AZURE_BLOCK_ENTITY =
+            Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(Project3.MOD_ID, "alchemical_chest_azure"),
+                    FabricBlockEntityTypeBuilder.create((pos, state) -> new AlchemicalChestBlockEntity(pos, state, 2),
+                            Blocks.ALCHEMICAL_CHEST_AZURE).build());
+
+    public static final BlockEntityType<AlchemicalChestBlockEntity> ALCHEMICAL_CHEST_MINIUM_BLOCK_ENTITY =
+            Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(Project3.MOD_ID, "alchemical_chest_minium"),
+                    FabricBlockEntityTypeBuilder.create((pos, state) -> new AlchemicalChestBlockEntity(pos, state, 3),
+                            Blocks.ALCHEMICAL_CHEST_MINIUM).build());
+
     public static void registerBlockEntities() {
         Project3.LOGGER.info("Registering Block Entities for " + Project3.MOD_ID);
     }
