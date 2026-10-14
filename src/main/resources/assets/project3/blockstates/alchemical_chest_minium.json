@@ -1,8 +1,8 @@
 {
   "variants": {
-    "facing=north": { "model": "project3:block/alchemical_chest_minium", "y": 180 },
-    "facing=south": { "model": "project3:block/alchemical_chest_minium" },
-    "facing=west": { "model": "project3:block/alchemical_chest_minium", "y": 90 },
-    "facing=east": { "model": "project3:block/alchemical_chest_minium", "y": 270 }
+    "facing=north": { "model": "project3:block/alchemical_chest_minium" },
+    "facing=east":  { "model": "project3:block/alchemical_chest_minium", "y": 90 },
+    "facing=south": { "model": "project3:block/alchemical_chest_minium", "y": 180 },
+    "facing=west":  { "model": "project3:block/alchemical_chest_minium", "y": 270 }
   }
 }

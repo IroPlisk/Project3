@@ -40,6 +40,10 @@ public class CreativeTabProject3 {
                 entries.add((Blocks.GLASS_BELL));
                 entries.add(Blocks.ALUDEL_BASE);
                 entries.add(Blocks.RESEARCH_STATION);
+
+                entries.add(Blocks.ALCHEMICAL_CHEST_VERDANT);
+                entries.add(Blocks.ALCHEMICAL_CHEST_AZURE);
+                entries.add(Blocks.ALCHEMICAL_CHEST_MINIUM);
             })).build());
 
     public static void CreativeTabReg(){

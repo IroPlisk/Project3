@@ -1027,5 +1027,8 @@
   "project3:dust_amaranthine": 16384,
   "project3:inert_stone": 16388,
   "project3:dust_iridescent": 32768,
-  "project3:philosophers_stone": 180228
+  "project3:philosophers_stone": 180228,
+  "project3:alchemical_chest_verdant": 576,
+  "project3:alchemical_chest_azure": 16960,
+  "project3:alchemical_chest_minium": 82496
 }
