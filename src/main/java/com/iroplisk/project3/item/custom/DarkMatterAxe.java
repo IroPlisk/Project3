@@ -30,8 +30,6 @@ public class DarkMatterAxe extends AxeItem implements ChargeableTool {
     private static final int MAX_LOGS = 128;
     private static boolean felling = false;
 
-
-    // call once from your main onInitialize()
     public static void register() {
         PlayerBlockBreakEvents.BEFORE.register((world, player, pos, state, blockEntity) -> {
             ItemStack stack = player.getMainHandStack();

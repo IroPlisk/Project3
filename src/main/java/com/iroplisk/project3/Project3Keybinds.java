@@ -24,7 +24,7 @@ public class Project3Keybinds {
                 if (!(client.player.getMainHandStack().getItem() instanceof ChargeableTool)) continue;
 
                 PacketByteBuf buf = PacketByteBufs.create();
-                buf.writeBoolean(Screen.hasShiftDown());   // Shift+V lowers the charge
+                buf.writeBoolean(Screen.hasShiftDown());
                 ClientPlayNetworking.send(Project3Networking.CHARGE_PACKET, buf);
             }
         });
