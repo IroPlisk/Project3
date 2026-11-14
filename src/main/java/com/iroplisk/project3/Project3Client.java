@@ -2,15 +2,20 @@ package com.iroplisk.project3;
 
 import com.iroplisk.project3.block.BlockEntities;
 import com.iroplisk.project3.block.entity.GlassBellEntityRenderer;
+import com.iroplisk.project3.entity.Project3Entities;
 import com.iroplisk.project3.item.Items;
+import com.iroplisk.project3.item.custom.DarkMatterBow;
 import com.iroplisk.project3.screen.*;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.BlockEntityRendererRegistry;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.client.model.FabricModelPredicateProviderRegistry;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
+import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
+import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtCompound;
@@ -20,6 +25,8 @@ public class Project3Client implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         Project3ScreenHandlers.registerScreenHandlers();
+        Project3Keybinds.register();
+        Project3ModelPredicates.register();
 
         HandledScreens.register(Project3ScreenHandlers.CALCINATOR_SCREEN_HANDLER, CalcinatorInterface::new);
         HandledScreens.register(Project3ScreenHandlers.ALUDEL_SCREEN_HANDLER, AludelInterface::new);
@@ -35,6 +42,8 @@ public class Project3Client implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(com.example.project3.block.Blocks.GLASS_BELL, RenderLayer.getTranslucent());
         BlockEntityRendererFactories.register(BlockEntities.GLASS_BELL_BLOCK_ENTITY, GlassBellEntityRenderer::new);
         BlockEntityRendererFactories.register(BlockEntities.TRANSMUTATION_TABLET_BLOCK_ENTITY, TabletBlockEntityRenderer::new);
+        EntityRendererRegistry.register(Project3Entities.PROTO_MATTER_ENTITY, FlyingItemEntityRenderer::new);
+
 
 
         FabricModelPredicateProviderRegistry.register(
@@ -48,7 +57,17 @@ public class Project3Client implements ClientModInitializer {
         FabricModelPredicateProviderRegistry.register(
                 Items.ALCHEMICAL_BAG_LARGE, new Identifier("open"),
                 (stack, world, entity, seed) -> entity instanceof PlayerEntity player && isBagOpenFor(player, stack, 3) ? 1.0f : 0.0f
-        );    }
+        );
+
+        ModelPredicateProviderRegistry.register(Items.DM_BOW, new Identifier("pull"),
+                (stack, world, entity, seed) -> {
+                    if (entity == null || entity.getActiveItem() != stack) return 0f;
+                    return (stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / 20f * DarkMatterBow.getTieredDrawSpeed(stack);
+                });
+        ModelPredicateProviderRegistry.register(Items.DM_BOW, new Identifier("pulling"),
+                (stack, world, entity, seed) ->
+                        entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1f : 0f);
+    }
 
     private static boolean isBagOpenFor(PlayerEntity player, ItemStack stack, int tier) {
         return player.currentScreenHandler instanceof AlchemicalBagHandler bagHandler && bagHandler.getTier() == tier;

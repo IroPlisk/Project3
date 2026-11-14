@@ -1,6 +1,10 @@
 {
   "parent": "item/generated",
-  "textures": {
-      "layer0": "project3:item/philosophers_stone_inactive"
-  }
+  "textures": { "layer0": "project3:item/philosophers_stone" },
+  "overrides": [
+    { "predicate": { "project3:flash": 0.01 }, "model": "project3:item/philosophers_stone_flash_25" },
+    { "predicate": { "project3:flash": 0.25 }, "model": "project3:item/philosophers_stone_flash_50" },
+    { "predicate": { "project3:flash": 0.50 }, "model": "project3:item/philosophers_stone_flash_75" },
+    { "predicate": { "project3:flash": 0.75 }, "model": "project3:item/philosophers_stone_flash_100" }
+  ]
 }

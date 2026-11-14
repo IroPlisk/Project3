@@ -5,6 +5,8 @@ import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
 
 public class MiniumStoneItem extends Item {
@@ -34,6 +36,8 @@ public class MiniumStoneItem extends Item {
         context.getStack().damage(1, player, (p) -> {
             p.sendToolBreakStatus(context.getHand());
         });
+        player.getWorld().playSound(null, player.getX(), player.getY(), player.getZ(),
+                SoundEvents.BLOCK_LAVA_EXTINGUISH, SoundCategory.PLAYERS, 1.0f, 1.0f);
         return super.useOnBlock(context);
     }
 

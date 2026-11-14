@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " D "
+  ],
+  "key": {
+    "M": { "item": "project3:dark_matter"},
+    "D": { "item": "minecraft:diamond"},
+    "S": { "item": "minecraft:stick"}
+  },
+  "result": {
+    "item": "project3:dm_arrow",
+    "count": 3
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "project3:aludel",
+  "top_input": { "item": "project3:proto_matter", "count": 1 },
+  "bottom_input": { "item": "project3:philosophers_stone", "count": 1 },
+  "result": { "item": "project3:dark_matter", "count": 1 },
+  "cook_time": 50
+}

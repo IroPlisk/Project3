@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "D  ",
+    "MD ",
+    "M D"
+  ],
+  "key": {
+    "M": { "item": "project3:dark_matter"},
+    "D": { "item": "minecraft:diamond"}
+  },
+  "result": {
+    "item": "project3:dm_fishing_rod",
+    "count": 1
+  }
+}

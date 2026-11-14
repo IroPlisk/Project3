@@ -72,7 +72,6 @@ public class TomeItem extends Item {
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.literal("An alchemist's best friend -2nd edition"));
-
         super.appendTooltip(stack, world, tooltip, context);
     }
 }

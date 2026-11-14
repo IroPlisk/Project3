@@ -33,6 +33,19 @@ public class CreativeTabProject3 {
                 entries.add(Items.DUST_MINIUM);
                 entries.add(Items.DUST_AMARANTHINE);
                 entries.add(Items.DUST_IRIDESCENT);
+                entries.add(Items.PROTO_MATTER);
+                entries.add(Items.DARK_MATTER);
+
+                entries.add(Items.DM_SWORD);
+                entries.add(Items.DM_PICKAXE);
+                entries.add(Items.DM_AXE);
+                entries.add(Items.DM_SHOVEL);
+                entries.add(Items.DM_HOE);
+                entries.add(Items.DM_ARROW);
+                entries.add(Items.DM_BOW);
+                entries.add(Items.DM_SHEARS);
+                entries.add(Items.DM_FISHING_ROD);
+                entries.add(Items.DM_HAMMER);
 
                 entries.add(Blocks.ASH_STONE);
 

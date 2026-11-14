@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "project3:item/philosophers_stone",
+    "layer1": "project3:item/philosophers_stone_fire_75"
+  }
+}

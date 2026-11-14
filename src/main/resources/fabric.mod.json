@@ -1,4 +1,8 @@
 {
+	"mixins": [
+		"project3.mixins.json",
+		{ "config": "project3.client.mixins.json", "environment": "client" }
+	],
 	"schemaVersion": 1,
 	"id": "project3",
 	"version": "${version}",

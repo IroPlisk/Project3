@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "MPM",
+    " D "
+  ],
+  "key": {
+    "M": { "item": "project3:dark_matter"},
+    "D": { "item": "minecraft:diamond"},
+    "P": { "item": "project3:dm_pickaxe"}
+  },
+  "result": {
+    "item": "project3:dm_hammer",
+    "count": 1
+  }
+}

@@ -1,4 +1,7 @@
 {
+  "key.project3.charge": "Carica utensile",
+  "category.project3": "Project3",
+
   "item.project3.inert_stone": "Pietra Inerte",
   "item.project3.minium_shard": "Frammento Minium",
 
@@ -17,6 +20,19 @@
   "item.project3.dust_minium": "Cenere Minium",
   "item.project3.dust_amaranthine": "Cenere Amarantina",
   "item.project3.dust_iridescent": "Cenere Iridescente",
+  "item.project3.proto_matter": "Materia Prototipo",
+  "item.project3.dark_matter": "Materia Oscura",
+
+  "item.project3.dm_sword": "Spada di Materia Oscura",
+  "item.project3.dm_pickaxe": "Piccone di Materia Oscura",
+  "item.project3.dm_axe": "Ascia di Materia Oscura",
+  "item.project3.dm_shovel": "Pala di Materia Oscura",
+  "item.project3.dm_hoe": "Zappa di Materia Oscura",
+  "item.project3.dm_arrow": "Freccia di Materia Oscura",
+  "item.project3.dm_bow": "Arco di Materia Oscura",
+  "item.project3.dm_shears": "Cesoie di Materia Oscura",
+  "item.project3.dm_fishing_rod": "Canna da pesca di Materia Oscura",
+  "item.project3.dm_hammer": "Martello di Materia Oscura",
 
   "block.project3.ash_stone": "Pietra infusa",
 

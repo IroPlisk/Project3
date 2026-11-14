@@ -1,4 +1,7 @@
 {
+  "key.project3.charge": "Tool Charge",
+  "category.project3": "Project3",
+
   "item.project3.inert_stone": "Inert Stone",
   "item.project3.minium_shard": "Minium Shard",
 
@@ -17,6 +20,19 @@
   "item.project3.dust_minium": "Minium Dust",
   "item.project3.dust_amaranthine": "Amaranthine Dust",
   "item.project3.dust_iridescent": "Iridescent Dust",
+  "item.project3.proto_matter": "Proto Matter",
+  "item.project3.dark_matter": "Dark Matter",
+
+  "item.project3.dm_sword": "Dark Matter Sword",
+  "item.project3.dm_pickaxe": "Dark Matter Pickaxe",
+  "item.project3.dm_axe": "Dark Matter Axe",
+  "item.project3.dm_shovel": "Dark Matter Shovel",
+  "item.project3.dm_hoe": "Dark Matter Hoe",
+  "item.project3.dm_arrow": "Dark Matter Arrow",
+  "item.project3.dm_bow": "Dark Matter Bow",
+  "item.project3.dm_shears": "Dark Matter Shears",
+  "item.project3.dm_fishing_rod": "Dark Matter Fishing Rod",
+  "item.project3.dm_hammer": "Dark Matter Hammer",
 
   "block.project3.ash_stone": "Ash Infused Stone",
 

@@ -29,6 +29,7 @@ import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
 import static com.iroplisk.project3.item.Items.MINIUM_STONE;
+import static com.iroplisk.project3.item.Items.PHILOSOPHERS_STONE;
 
 public class AludelBaseBlockEntity extends BlockEntity implements ExtendedScreenHandlerFactory, ImplementedInventory {
 
@@ -186,7 +187,9 @@ public class AludelBaseBlockEntity extends BlockEntity implements ExtendedScreen
         if (currentRecipe == null) return;
 
         removeStack(TOP_INPUT, currentRecipe.getTopCount());
-        removeStack(BOTTOM_INPUT, currentRecipe.getBottomCount());
+        if(getStack(BOTTOM_INPUT).getItem() != PHILOSOPHERS_STONE) {
+            removeStack(BOTTOM_INPUT, currentRecipe.getBottomCount());
+        }
         ItemStack result = getStack(OUTPUT);
         if (result.isEmpty()) {
             setStack(OUTPUT, currentRecipe.getOutput(world.getRegistryManager()).copy());

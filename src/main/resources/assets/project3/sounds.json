@@ -1,0 +1,5 @@
+{
+  "tool.charge_up": { "sounds": [ "project3:charge_up" ] },
+  "tool.charge_down": { "sounds": [ "project3:charge_down" ] },
+  "item.philosophersstone.use": {"sounds": ["project3:philosophers_stone"]}
+}

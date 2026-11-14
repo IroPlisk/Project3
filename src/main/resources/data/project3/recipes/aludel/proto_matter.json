@@ -1,0 +1,7 @@
+{
+  "type": "project3:aludel",
+  "top_input": { "item": "project3:dust_iridescent", "count": 1 },
+  "bottom_input": { "item": "minecraft:diamond", "count": 8 },
+  "result": { "item": "project3:proto_matter", "count": 1 },
+  "cook_time": 2000
+}
